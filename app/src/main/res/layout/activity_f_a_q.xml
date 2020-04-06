@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C4FFBB33"
+    tools:context=".FAQ">
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="INSTRUCTIONS"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="193dp"
+        android:layout_marginTop="70dp"
+        android:background="#FDD835"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="216dp"
+        android:background="#9FA637"
+        android:textColorLink="#000000"
+        android:textSize="24sp" />
+</LinearLayout>
